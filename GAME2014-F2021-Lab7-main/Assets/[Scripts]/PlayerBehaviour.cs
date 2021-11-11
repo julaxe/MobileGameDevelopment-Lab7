@@ -13,6 +13,7 @@ public class PlayerBehaviour : MonoBehaviour
     public LayerMask groundLayerMask;
     [Range(0.1f, 0.9f)]
     public float airControlFactor;
+    public Transform SpawnTransform;
 
     [Header("Animation")] 
     public PlayerAnimationState state;
@@ -122,6 +123,10 @@ public class PlayerBehaviour : MonoBehaviour
         if (other.gameObject.CompareTag("Platform"))
         {
             transform.SetParent(other.transform);
+        }
+        if(other.gameObject.CompareTag("Enemy"))
+        {
+            transform.position = SpawnTransform.position;
         }
     }
 

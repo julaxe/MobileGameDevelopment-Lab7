@@ -9093,7 +9093,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.0662984, y: 1}
+    m_SensorSize: {x: 1.7777778, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -11461,6 +11461,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3347542983166984659, guid: 46fae1adaf3062f49bd853a944b14f45, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 3347542983166984662, guid: 46fae1adaf3062f49bd853a944b14f45, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -11518,6 +11522,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 1414566349870552818, guid: 7faba56088fb09c47bf67edbcae2df54, type: 3}
+      propertyPath: SpawnTransform
+      value: 
+      objectReference: {fileID: 480538253}
     - target: {fileID: 1414566349870552821, guid: 7faba56088fb09c47bf67edbcae2df54, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -11638,6 +11646,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3347542983166984659, guid: 46fae1adaf3062f49bd853a944b14f45, type: 3}
       propertyPath: m_Name
+      value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 3347542983166984659, guid: 46fae1adaf3062f49bd853a944b14f45, type: 3}
+      propertyPath: m_TagString
       value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 3347542983166984662, guid: 46fae1adaf3062f49bd853a944b14f45, type: 3}
